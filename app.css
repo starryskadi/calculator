@@ -54,3 +54,9 @@ body {
 .btn-back i {
     pointer-events: none;
 }
+
+@media (max-width: 565px) {
+    .calculator  {
+        padding: 20px 25px;
+    }
+}
