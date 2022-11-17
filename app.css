@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-btn  {
+    padding: 5px
+}
+
+.number-btn button {
+    display: block;
+    font-size: 30px;
+    width: 100%;
+}
+
+.total  {
+    background-color: #ffffff;
+    font-size: 32px;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.total-container > div {
+    padding: 5px
+}
+
+.calculator {
+    max-width: 360px;
+    background-color: black;
+    padding: 30px 40px;
+    border-radius: 24px;
+}
+
+.calculator.error {
+    background-color: #fa0000;
+    animation: shake 0.1s ease-in-out 1;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-2deg);
+    }
+}
+
+.btn-back i {
+    pointer-events: none;
+}
